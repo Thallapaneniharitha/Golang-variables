@@ -1,0 +1,243 @@
+1.program:
+package main
+import "fmt"
+func main() 
+{
+   var x float64
+   x = 40.0
+   fmt.Println(x)
+   fmt.Printf("x is of type %T\n", x)
+}
+output:
+40
+x is of type float64
+
+2.program:
+package main
+import "fmt"
+func main()
+{
+   var x float64 = 30.0
+   y := 22
+   fmt.Println(x)
+   fmt.Println(y)
+   fmt.Printf("x is of type %T\n", x)
+   fmt.Printf("y is of type %T\n", y)	
+}
+output:
+30
+22
+x is of type float64
+y is of type int
+
+3.program:
+package main
+import "fmt"
+func main() 
+{
+   var a, b, c = 7, 8, "foo"  	
+   fmt.Println(a)
+   fmt.Println(b)
+   fmt.Println(c)
+   fmt.Printf("a is of type %T\n", a)
+   fmt.Printf("b is of type %T\n", b)
+   fmt.Printf("c is of type %T\n", c)
+}
+output:
+7
+8
+foo
+a is of type int
+b is of type int
+c is of type string
+
+4.program:
+package main   
+import "fmt"  
+func main() { 
+
+var myvariable1 = 80
+var myvariable2 = "haritha"
+var myvariable3 = 64.80 
+  
+fmt.Printf("The value of myvariable1 is : %d\n", 
+                                  myvariable1)                                     
+fmt.Printf("The type of myvariable1 is : %T\n", 
+                                  myvariable1)      
+fmt.Printf("The value of myvariable2 is : %s\n", 
+                                      myvariable2)                                        
+fmt.Printf("The type of myvariable2 is : %T\n", 
+                                 myvariable2)     
+fmt.Printf("The value of myvariable3 is : %f\n", 
+                                      myvariable3)                                        
+fmt.Printf("The type of myvariable3 is : %T\n", 
+                                  myvariable3)      
+} 
+output:
+The value of myvariable1 is : 80
+The type of myvariable1 is : int
+The value of myvariable2 is : haritha
+The type of myvariable2 is : string
+The value of myvariable3 is : 64.800000
+The type of myvariable3 is : float64
+
+5.program:
+package main    
+import "fmt"  
+func main() { 
+  
+    var myvariable1 int 
+    var myvariable2 string 
+    var myvariable3 float64 
+  
+    fmt.Printf("The value of myvariable1 is : %d\n", 
+                                     myvariable1) 
+    fmt.Printf("The value of myvariable2 is : %s\n", 
+                                     myvariable2) 
+    fmt.Printf("The value of myvariable3 is : %f", 
+                                     myvariable3) 
+} 
+output:
+The value of myvariable1 is : 0
+The value of myvariable2 is : 
+The value of myvariable3 is : 0.000000
+
+6.program:
+package main 
+import "fmt"   
+func main() 
+{ 
+  var myvariable1, myvariable2, myvariable3 int = 8, 647, 52 
+   
+   fmt.Printf("The value of myvariable1 is : %d\n", 
+                                       myvariable1) 
+  
+   fmt.Printf("The value of myvariable2 is : %d\n", 
+                                       myvariable2) 
+  
+   fmt.Printf("The value of myvariable3 is : %d", 
+                                      myvariable3) 
+} 
+output:
+The value of myvariable1 is : 8
+The value of myvariable2 is : 647
+The value of myvariable3 is : 52
+
+7.program:
+package main 
+import "fmt"  
+func main()
+ { 
+ 
+var myvariable1, myvariable2, myvariable3 = 4, "HIK", 76.98 
+fmt.Printf("The value of myvariable1 is : %d\n", 
+                                    myvariable1)   
+fmt.Printf("The type of myvariable1 is : %T\n", 
+                                   myvariable1)   
+fmt.Printf("\nThe value of myvariable2 is : %s\n", 
+                                     myvariable2)  
+fmt.Printf("The type of myvariable2 is : %T\n", 
+                                  myvariable2)  
+fmt.Printf("\nThe value of myvariable3 is : %f\n", 
+                                      myvariable3)   
+fmt.Printf("The type of myvariable3 is : %T\n", 
+                                   myvariable3) 
+} 
+output:
+The value of myvariable1 is : 4
+The type of myvariable1 is : int
+
+The value of myvariable2 is : HIK
+The type of myvariable2 is : string
+
+The value of myvariable3 is : 76.980000
+The type of myvariable3 is : float64
+
+8.program:
+package main 
+import "fmt" 
+func main()
+{   
+myvar1 := 78  
+myvar2 := "saritha" 
+myvar3 := 89.56  
+fmt.Printf("The value of myvar1 is : %d\n", myvar1) 
+fmt.Printf("The type of myvar1 is : %T\n", myvar1)  
+fmt.Printf("\nThe value of myvar2 is : %s\n", myvar2) 
+fmt.Printf("The type of myvar2 is : %T\n", myvar2)  
+fmt.Printf("\nThe value of myvar3 is : %f\n", myvar3) 
+fmt.Printf("The type of myvar3 is : %T\n", myvar3) 
+} 
+output:
+The value of myvar1 is : 78
+The type of myvar1 is : int
+
+The value of myvar2 is : saritha
+The type of myvar2 is : string
+
+The value of myvar3 is : 89.560000
+The type of myvar3 is : float64
+
+9.program:
+package main 
+import "fmt"  
+func main() 
+{  
+myvar1, myvar2, myvar3 := 300, 78, 45
+fmt.Printf("The value of myvar1 is : %d\n", myvar1) 
+fmt.Printf("The type of myvar1 is : %T\n", myvar1)  
+fmt.Printf("\nThe value of myvar2 is : %d\n", myvar2) 
+fmt.Printf("The type of myvar2 is : %T\n", myvar2)   
+fmt.Printf("\nThe value of myvar3 is : %d\n", myvar3) 
+fmt.Printf("The type of myvar3 is : %T\n", myvar3) 
+} 
+output:
+The value of myvar1 is : 300
+The type of myvar1 is : int
+
+The value of myvar2 is : 78
+The type of myvar2 is : int
+
+The value of myvar3 is : 45
+The type of myvar3 is : int
+
+10.program:
+package main 
+import "fmt" 
+func main() 
+{   
+myvar1, myvar2 := 56, 60 
+myvar3, myvar2 := 90, 30
+fmt.Printf("The value of myvar1 and myvar2 is : %d %d\n", 
+                                          myvar1, myvar2)                                             
+fmt.Printf("The value of myvar3 and myvar2 is : %d %d\n", 
+                                          myvar3, myvar2) 
+} 
+output:
+The value of myvar1 and myvar2 is : 56 30
+The value of myvar3 and myvar2 is : 90 30
+
+11.program:
+package main 
+import "fmt" 
+func main() 
+{   
+myvar1, myvar2, myvar3 := 200, "haritha", 67.45  
+fmt.Printf("The value of myvar1 is : %d\n", myvar1) 
+fmt.Printf("The type of myvar1 is : %T\n", myvar1)  
+fmt.Printf("\nThe value of myvar2 is : %s\n", myvar2) 
+fmt.Printf("The type of myvar2 is : %T\n", myvar2)  
+fmt.Printf("\nThe value of myvar3 is : %f\n", myvar3) 
+fmt.Printf("The type of myvar3 is : %T\n", myvar3)   
+} 
+output:
+The value of myvar1 is : 200
+The type of myvar1 is : int
+
+The value of myvar2 is : haritha
+The type of myvar2 is : string
+
+The value of myvar3 is : 67.450000
+The type of myvar3 is : float64
+
+
